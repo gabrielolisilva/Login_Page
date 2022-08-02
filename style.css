@@ -1,0 +1,120 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300;400;500;600;900&display=swap');
+
+:root {
+    --cor1: #e5e3e1;
+    --cor2: #83632b;
+    --cor3: #d79f4a;
+    --cor4: #e9b563;
+    --cor5: #251d0d;
+    --cor6: #a7a4a2;
+    --cor7: #938c81;
+    --cor8: #524c41;
+    --cor9: #442c0c;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body{
+    background-color: var(--cor9);
+}
+
+#principal{
+    background-color: #e6a748;
+    width: 96vw;
+    height: 96vh;
+    margin: 1em;
+
+    border-radius: 20px; 
+}
+
+#principal img{
+    width: 15em;
+    padding-top: 15px;
+    padding-left: 6px;
+}
+
+#blocos{
+    display: flex;
+}
+
+#ladoEsquerdo{
+    width: 50%;
+    text-align: center;
+}
+
+#ladoEsquerdo img{
+    width: 36em;
+}
+
+#ladoEsquerdo h1{
+    text-align: center;
+    font-weight: bolder;
+}
+
+#ladoDireito{
+    width: 50%;
+    text-align: left;
+}
+
+#ladoDireito h1{
+    margin-bottom: .5em;
+    text-align: left;
+}
+
+#pConta{
+    margin-bottom: 4em;
+    text-align: left;
+}
+
+#botões{
+    margin-bottom: 3em;
+}
+
+#google{
+    text-decoration: none;
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 26px;
+    border-radius: 8px;
+}
+
+#facebook{
+    text-decoration: none;
+    background-color: #3b5998;
+    font-weight: 600;
+    color: white;
+    padding: 10px 26px;
+    border-radius: 8px;
+}
+
+.normal{
+    margin-bottom: .5em;
+    text-align: left;
+}
+
+#ladoDireito input{
+    margin-bottom: .6em;
+    text-align: left;
+}
+
+#botãoReg{
+    text-align: center;
+    line-height: 50px;
+    background-color: var(--cor1);
+    max-width: 510px;
+    height: 50px;
+}
+
+#registrar{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
