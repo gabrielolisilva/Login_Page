@@ -34,26 +34,25 @@
                 <p class="normal">
                     <label for="email">Endereço de Email</label>
                 </p>
-                <input type="email" name="email" id="email" size="60" placeholder="modelo@modelo.com">
+                <input type="email" name="email" id="email" size="50" placeholder="modelo@modelo.com" required>
 
                 <p class="normal">
                     <label for="senha">Senha</label>
                 </p>
-                <input type="password" name="senha" id="senha" size="60" placeholder="************">
+                <input type="password" name="senha" id="senha" size="50" placeholder="************" required>
 
                 <p class="normal">
                     <input type="checkbox" name="termos" id="termos"> Eu concordo com os <strong>termos de serviço</strong> e com a <strong>política de privacidade</strong>
                 </p>
 
                 
-                <div id="botãoReg">
-                    <a href="#" id="registrar">
-                            Registrar-se
-                    </a>
-                </div>
-                
+                <button id="botãoReg" onclick="registrar()">
+                    <p>Registrar-se</p>
+                </button>
             </div>
         </div>
     </section>
+
+    <script src="main.js"></script>
 </body>
 </html>

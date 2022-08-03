@@ -59,6 +59,7 @@ body{
 #ladoDireito{
     width: 50%;
     text-align: left;
+    padding-left: 40px;
 }
 
 #ladoDireito h1{
@@ -105,16 +106,96 @@ body{
 }
 
 #botãoReg{
-    text-align: center;
-    line-height: 50px;
-    background-color: var(--cor1);
-    max-width: 510px;
+    margin-top: 20px;
+    width: 460px;
     height: 50px;
+    background-color: var(--cor9);
+    border-radius: 10px;
+    transition: .7s;
 }
 
-#registrar{
-    text-decoration: none;
-    color: black;
-    padding: 5px 10px;
+#botãoReg > p{
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 1.5em;
 }
 
+#botãoReg:hover{
+    background-color: rgba(219, 31, 31, 0.685);
+    width: 480px;
+    height: 70px;
+}
+
+
+@media screen and (max-width: 1130px) {
+    #ladoEsquerdo img{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    #botões{
+        display: grid;
+        width: 300px;
+    }
+
+    #facebook{
+        margin-top: 20px;
+    }
+
+    #botãoReg{
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 921px) {
+    body{
+        overflow-y: hidden;
+    }
+
+    #blocos{
+        display: block;
+    }
+
+    #principal{
+        width: 90vw;
+        height: 97vh;
+    }
+
+    #ladoEsquerdo{
+        margin: auto;
+    }
+    
+    #ladoEsquerdo h1{
+        font-size: 1em;
+    }
+
+    #ladoDireito{
+        padding: 10px;
+    }
+
+    #pConta{
+        font-size: .8em;
+        margin-bottom: .3em;
+    }
+
+    #botões{
+        display: flex;
+        margin-bottom: .3em;
+    }
+
+    #google{
+        font-size: .8em;
+        width: 135px;
+        padding: 5px 10px;
+        margin-bottom: .3em;
+    }
+
+    #facebook{
+        font-size: .8em;
+        margin-top: 0px;
+        width: 168px;
+        padding: 5px 10px;
+    }
+}
