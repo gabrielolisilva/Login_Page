@@ -151,7 +151,7 @@ body{
 
 @media screen and (max-width: 921px) {
     body{
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     #blocos{
@@ -160,7 +160,7 @@ body{
 
     #principal{
         width: 90vw;
-        height: 97vh;
+        height: 1040px;
     }
 
     #ladoEsquerdo{
@@ -172,7 +172,13 @@ body{
     }
 
     #ladoDireito{
-        padding: 10px;
+        margin: auto;
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    #ladoDireito h1{
+        text-align: center;
     }
 
     #pConta{
@@ -197,5 +203,69 @@ body{
         margin-top: 0px;
         width: 168px;
         padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #principal{
+        width: 91vw;
+        height: 1040px;
+    }
+
+    #ladoEsquerdo{
+        margin: auto;
+    }
+    
+    #ladoEsquerdo h1{
+        font-size: 1em;
+    }
+
+    #ladoDireito{
+        display: block;
+        margin-top: 20px;
+        padding-left: 0px;
+        margin-left: 10px;
+    }
+
+    #ladoDireito h1{
+        text-align: center;
+    }
+
+    #divButton{
+        margin: auto;
+    }
+
+    #botões{
+        text-align: center;
+    }
+
+    #pConta{
+        font-size: .8em;
+        margin-bottom: .3em;
+    }
+
+    #botões{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: .3em;
+    }
+
+    #google{
+        font-size: .8em;
+        width: 135px;
+        padding: 5px 10px;
+        margin-bottom: .3em;
+    }
+
+    #facebook{
+        font-size: .8em;
+        margin-top: 0px;
+        width: 135px;
+        padding: .2px 10px;
+    }
+
+    #botãoReg{
+        width: 360px;
     }
 }
