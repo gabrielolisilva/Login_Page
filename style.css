@@ -27,7 +27,7 @@ body{
 #principal{
     background-color: #e6a748;
     width: 96vw;
-    height: 96vh;
+    height: 1050px;
     margin: 1em;
 
     border-radius: 20px; 
@@ -129,6 +129,10 @@ body{
 }
 
 @media screen and (max-width: 1190px) {
+    #principal{
+        height: 1050px;
+    }
+
     #botões{
         display: grid;
         width: 300px;
@@ -144,6 +148,10 @@ body{
 }
 
 @media screen and (max-width: 1130px) {
+    #principal{
+        height: 1030px;
+    }
+
     #ladoEsquerdo img{
         width: 50vw;
     }
@@ -156,7 +164,7 @@ body{
 
     #principal{
         width: 98vw;
-        height: 98vh;
+        height: 1030px;
     }
 
     #ladoEsquerdo{
